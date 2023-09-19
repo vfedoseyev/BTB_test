@@ -1,0 +1,34 @@
+.main-wrapper::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(180deg, rgba(33, 23, 64, 0.00) 0%, #211740 50%, rgba(33, 23, 64, 0.00) 100%);
+    z-index: 1;
+    transition: opacity 0.5s ease;
+}
+
+.marketing-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -160px;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(180deg, rgba(33, 23, 64, 0.00) 0%, #211740 50%, rgba(33, 23, 64, 0.00) 100%);
+    z-index: 1;
+    transition: opacity 0.5s ease;
+}
+
+.marketing-wrapper::after {
+    content: "";
+    position: absolute;
+    bottom: -114px;
+    left: 0;
+    width: 100%;
+    height: 264px;
+    background: linear-gradient(180deg, rgba(33, 23, 64, 0.00) 0%, #211740 50%, rgba(33, 23, 64, 0.00) 100%);
+    z-index: 1;
+    transition: opacity 0.5s ease;
+}

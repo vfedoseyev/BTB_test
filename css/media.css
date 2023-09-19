@@ -1,0 +1,155 @@
+@media screen and (max-width: 1920px) {
+    .container {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width: 1536px) {
+    .main-wrapper__img-wooman {
+        width: 495.58299999999997px;
+        height: 338.577px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .hidden1440 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .hidden1366 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .hidden1180 {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .main-wrapper__img-nlo {
+        width: 20%;
+    }
+
+    .main-wrapper__img-flying {
+        width: 30%;
+    }
+
+    .main-wrapper__img-asteroid5 {
+        width: 10%;
+        top: -29px;
+        right: 152px;
+
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .main-wrapper__img-asteroid5 {
+        width: 10%;
+        top: 30px;
+        right: 238px;
+    }
+
+    .main-wrapper {
+        padding-bottom: 51px;
+    }
+
+    .main-wrapper::after {
+        height: 95px;
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+    .ticket-bottom-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 0 30px;
+    }
+
+    .header {
+        padding-top: 30px;
+    }
+
+    .header__logo {
+        width: 70%;
+    }
+
+    .bar {
+        width: 30px;
+        height: 4px;
+    }
+
+    .slider {
+        padding: 0;
+    }
+
+    h1 {
+        margin-top: 180px;
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .advantages {
+        margin-top: 100px;
+    }
+
+    .main-wrapper__img-wooman {
+        width: 401.58299999999997px;
+        height: 258.577px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .main__btn {
+        width: 100%;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    .main-wrapper__img-wooman {
+        display: none;
+    }
+
+    .marketing {
+        padding-top: 90px;
+    }
+
+    .marketing__btn {
+        width: 100%;
+    }
+    .main-wrapper__img-circle{
+        display: none;
+    }
+}
+

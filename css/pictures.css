@@ -1,0 +1,100 @@
+.main-wrapper__img-square {
+    position: absolute;
+    top: 130px;
+    left: 111px;
+    animation: moveAndRotate 6s linear infinite;
+}
+
+.main-wrapper__img-square2 {
+    position: absolute;
+    bottom: 364px;
+    right: 204px;
+    animation: moveAndRotate 7s linear infinite;
+}
+
+.main-wrapper__img-triangle {
+    position: absolute;
+    top: 213px;
+    right: 125px;
+    animation: moveAndRotate 10s linear infinite;
+}
+
+.main-wrapper__img-circle {
+    position: absolute;
+    bottom: 451px;
+    left: 378px;
+    animation: moveAndRotate 4s linear infinite;
+}
+
+.main-wrapper__img-asteroid1 {
+    position: absolute;
+    top: 253px;
+    right: 347px;
+    animation: moveAndRotate 40s linear infinite;
+}
+
+.main-wrapper__img-asteroid2 {
+    position: absolute;
+    top: 613px;
+    right: 555px;
+}
+
+.main-wrapper__img-asteroid3 {
+    position: absolute;
+    top: 395px;
+    right: 144px;
+    animation: moveAndRotate 50s linear infinite;
+}
+
+.main-wrapper__img-asteroid4 {
+    position: absolute;
+    top: 323px;
+    right: 502px;
+}
+
+.main-wrapper__img-asteroid5 {
+    z-index: 2;
+    position: absolute;
+    top: 42px;
+    right: 293px;
+    animation: moveAndRotate 15s linear infinite;
+}
+
+.main-wrapper__img-boy {
+    position: absolute;
+    top: 177px;
+    right: 482px;
+    animation: sway 8s ease-in-out infinite;
+}
+
+.main-wrapper__img-girl {
+    position: absolute;
+    top: 311px;
+    right: 72px;
+    animation: sway 4s ease-in-out infinite;
+}
+
+.main-wrapper__img-nlo {
+    z-index: 1;
+    animation: sway2 15s ease-in-out infinite;
+    position: absolute;
+    top: -47px;
+    left: 72px;
+}
+
+.main-wrapper__img-flying {
+    z-index: 1;
+    position: absolute;
+    top: -162px;
+    right: 0;
+}
+
+.main-wrapper__img-wooman {
+    z-index: 2;
+    width: 587.583px;
+    height: 410.577px;
+    transform: rotate(11.161deg);
+    position: absolute;
+    bottom: -120px;
+    left: -127px;
+}

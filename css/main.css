@@ -1,0 +1,53 @@
+.main-wrapper {
+    position: relative;
+    padding-bottom: 181px;
+    background: url('/img/main/background-main.png') center center / cover no-repeat;
+
+}
+
+.main__btn {
+    margin-top: 56px;
+}
+
+.advantages {
+    margin-top: 192px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantage {
+    max-width: 272px;
+    width: 100%;
+}
+
+.advantage__img {
+    position: relative;
+    left: -25px;
+}
+
+.advantage__description {
+    position: relative;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 272px;
+    height: 90px;
+
+}
+
+.advantage__img_frame {
+    background-color: #ff7d0436;
+    position: relative;
+}
+
+.advantage__description p {
+    line-height: normal;
+    max-width: 218px;
+    position: absolute;
+    top: 12px;
+    left: 28px;
+}

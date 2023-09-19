@@ -1,0 +1,114 @@
+.marketing-wrapper {
+    position: relative;
+    background: url('/img/marketing/background-marketing.png') center center / cover no-repeat;
+}
+
+.marketing {
+    position: relative;
+    padding-top: 153px;
+}
+
+.marketing__description {
+    margin-top: 38px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.marketing__btn {
+    margin-top: 64px;
+}
+
+.tickets {
+    padding-bottom: 186px;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tickets__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ticket__wrapper {
+    margin-top: 15px;
+    position: relative;
+    height: 400px;
+    width: 278px;
+    margin-left: -5px;
+    background: url(/img/marketing/ticket-frame.png) center center / cover no-repeat;
+}
+
+.ticket {
+    position: relative;
+    padding: 40px;
+    max-width: 288px;
+}
+
+.ticket img {
+    position: absolute;
+    left: 70px;
+    top: -40px;
+}
+
+
+
+.ticket__title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.ticket__description {
+    margin-top: 24px;
+    padding-left: 15px;
+    list-style-type: disc;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+
+}
+
+.ticket__text-wrapper {
+    top: 115px;
+    position: absolute;
+}
+
+.ticket-bottom-wrapper {
+    background: url(/img/marketing/ticket-frame2.png) center center / cover no-repeat;
+    width: 851px;
+    height: 280px;
+    left: -20px;
+    position: relative;
+}
+
+.ticket-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ticket-bottom img {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.ticket-bottom__text-wrapper {
+    position: absolute;
+    top: 60px;
+    left: 251px;
+}
+
+.boy-with-topor {
+    background-image: url('/img/marketing/portrait-young-man.png');
+    background-color: lightgray;
+    background-position: -77.974px -0.088px;
+    background-size: 184.17% 99.971%;
+    background-repeat: no-repeat;
+}
