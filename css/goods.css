@@ -1,5 +1,5 @@
 .goods {
-    background: url('./img/goods/glass_1.png') center center / contain no-repeat;
+    background: url('../img/goods/glass.png') center center / contain no-repeat;
     margin-top: 100px;
     padding-bottom: 100px;
 }
