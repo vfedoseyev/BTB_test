@@ -1,7 +1,7 @@
 .main-wrapper {
     position: relative;
     padding-bottom: 181px;
-    background: url('img/main/background-main.png') center center / cover no-repeat;
+    background: url('../img/main/background-main.png') center center / cover no-repeat;
 
 }
 
